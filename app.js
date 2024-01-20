@@ -37,7 +37,8 @@ let idadeUsuario = Number(prompt('Digite a sua idade: '));
 
 //Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".
 
-if (idade >= 18 ) {
+idadeHabilitacao = Number(prompt('Digite a sua idade: '));
+if (idadeHabilitacao >= 18 ) {
     alert('Pode tirar a habilitação!');
 } else {
     alert('Ops! Ainda não pode tirar habilitação!');
